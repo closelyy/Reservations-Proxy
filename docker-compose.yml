@@ -1,0 +1,7 @@
+version: '3'
+
+services: 
+  reservations_proxy:
+    build: /Users/boss/HRSF122/Reservations-Proxy/
+    ports:
+      - '3000:3000'
